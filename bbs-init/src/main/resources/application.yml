@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework: info
+
+spring:
+  datasource:
+    #    初始化本地数据库,本地mysql端口为3306
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bbs?serverTimezone=UTC
+    username: root
+    password: 1234
